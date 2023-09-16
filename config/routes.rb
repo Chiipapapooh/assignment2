@@ -3,5 +3,8 @@ Rails.application.routes.draw do
   get 'top' => 'homes#top'
   resources :books
   
+  #get 'books/:id/edit' => 'books#edit', as: 'edit_book'
+  #get 'books/:id' => 'books#show', as: 'book'
+ 
   delete 'books/:id' => 'books#destroy', as: 'destroy_book'
 end

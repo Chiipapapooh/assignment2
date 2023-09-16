@@ -1,0 +1,7 @@
+<p class="p-margin">
+<strong>Title: </strong><%= @book.title %><br>
+</p>
+<p class="p-margin">
+<strong>Body: </strong><%= @book.body %><br>
+</p>
+<%= link_to "Edit", edit_book_path(@book.id) %>|<%= link_to "Back", books_path %>
