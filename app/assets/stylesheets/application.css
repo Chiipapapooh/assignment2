@@ -22,3 +22,8 @@ body {
 .p-margin {
     margin: 33px;
 }
+
+.p-notice {
+    color: green;
+    margin:33px;
+}
